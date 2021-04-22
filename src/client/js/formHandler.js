@@ -15,7 +15,7 @@ async function handleSubmit(event) {
   Lib.checkForName(formText)
   console.log("::: Form Submitted :::")
 
-  const nlpResult = await fetch('/.netlify/functions/server/nlp', {
+  const nlpResult = await fetch('https://frosty-lewin-77eb46.netlify.app/.netlify/functions/nlp', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
