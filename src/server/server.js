@@ -37,3 +37,5 @@ app.get('/test', function (req, res) {
 })
 
 app.post('/nlp', runNLP)
+
+module.exports.handler = serverless(app);
