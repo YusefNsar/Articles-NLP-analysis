@@ -1,3 +1,4 @@
+const serverless = require('serverless-http')
 const dotenv = require('dotenv')
 dotenv.config()
 const path = require('path')
