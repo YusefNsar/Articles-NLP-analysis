@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Test</title>
+  <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+
+  <header>
+    <div class="title">
+      Articles NLP
+    </div>
+    <img class="logo" src="npl.png" alt="logo" />
+  </header>
+
+  <main>
+    <section id="form-container">
+      <form onsubmit="return Lib.handleSubmit(event)">
+        <h1 id="form-header">Analyze your article</h1>
+        <textarea id="name" type="text"  name="input" value="" placeholder="Copy it here"></textarea>
+        <input type="submit" value="start analysis" onclick="return Lib.handleSubmit(event)" onsubmit="return Lib.handleSubmit(event)">
+        <span id="error"></span>
+      </form>
+    </section>
+
+    <section id="results-container">
+      <div class="result">
+        <span class="property">Positivness</span>
+        <span class="emoji" id="pos">❓</span>
+      </div>
+      <div class="result">
+        <span class="property">Agreement</span>
+        <span class="emoji" id="agr">❓</span>
+      </div>
+      <div class="result">
+        <span class="property">Irony</span>
+        <span class="emoji" id="irn">❓</span>
+      </div>
+      <div class="result">
+        <span class="property">Subjectivity</span>
+        <span class="emoji" id="sbj">❓</span>
+      </div>
+      <div class="result">
+        <span class="property">Confidence</span>
+        <progress class="emoji" id="cnf" value="0" max="100"></progress>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>NLP Project 1 @Udacity-YusefAhmed</p>
+  </footer>
+
+</body>
+
+</html>

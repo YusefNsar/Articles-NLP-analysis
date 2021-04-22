@@ -1,0 +1,36 @@
+#results-container {
+  max-width: 500px;
+  margin: 50px auto;
+}
+@media screen and (max-width: 500px) {
+  #results-container {
+    margin: 50px 20px;
+  }
+}
+
+.result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  margin-bottom: 10px;
+  background-color: #008081;
+  border: 1px solid #999;
+  border-radius: 8px;
+  font-size: 24px;
+  padding: 5px 20px;
+  font-family: Comic Sans MS;
+  color: white;
+}
+.property {
+  margin-left: 10px;
+}
+.emoji {
+  font-size: 30px;
+  font-family: serif;
+  margin-right: 10px;
+}
+#cnf {
+  width: 150px;
+}
