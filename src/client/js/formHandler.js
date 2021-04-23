@@ -1,6 +1,6 @@
 async function handleSubmit(event) {
   event.preventDefault()
-  console.log(document.body)
+
   const errorFlag = document.getElementById('error')
   errorFlag.style.color = "black"
   errorFlag.innerHTML = "loading..."

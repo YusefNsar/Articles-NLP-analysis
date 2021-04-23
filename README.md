@@ -32,8 +32,22 @@ the project has the following files architecture:
 - webpack.prod.js
 - README.md
 
-### What does it do?
+### Project Description
 
-Enter any article you like to analyze in the form and submit, then you see the data provided by the *meaningcloud api* shows below in an entertaining and amuzing way
+Articles sentiments analyzer, just enter any article you like to analyze in the form and submit, then you see the data provided by the *meaningcloud api* shows below in an entertaining and amuzing way.
+
+### Technology Used
+- Nodejs
+- SCSS
+- Webpack
+- Jest
+- Babel
+- Express
+
+### Commands used to run project
+- npm run start: start node server
+- npm run build-dev: start webpack dev server
+- npm run build-prod: make the build files
+- npm run test: run jest tests
 
 ##### BY Yusef Ahmed
